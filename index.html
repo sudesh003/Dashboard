@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header of the page which contains title and subtitle -->
+    <header>
+        <div class="header_title">
+            <h1>My Dashboard</h1>
+        </div>
+        <div class="header_subtitle">
+            <p>Take a lot of customer engagement overview</p>
+        </div>
+    </header>
+
+    <!-- Statistics grid which contains its components -->
+    <div class="statistics">
+        <!-- 1st componenet -->
+        <div class="statistics_component">
+            <div class="component_icon">
+                <i class="fa fa-tag" style="font-size:24px;color:black"></i>
+            </div>
+            <div class="combine_number_and_text">
+                <div class="component_number">
+                    <p>34</p>
+                </div>
+                <div class="component_text">
+                    <p>New Ticket</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd component -->
+        <div class="statistics_component">
+            <div class="component_icon">
+                <i class="fa fa-external-link" style="font-size:24px"></i>
+            </div>
+            <div class="combine_number_and_text">
+                <div class="component_number">
+                    <p>20</p>
+                </div>
+                <div class="component_text">
+                    <p>Open Ticket</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3rd component  -->
+        <div class="statistics_component">
+            <div class="component_icon">
+                <i class="fa fa-refresh" style="font-size:24px"></i>
+            </div>
+            <div class="combine_number_and_text">
+                <div class="component_number">
+                    <p>12</p>
+                </div>
+                <div class="component_text">
+                    <p>Pending</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4th componenet  -->
+        <div class="statistics_component">
+            <div class="component_icon">
+                <i class="fa fa-exclamation-circle" style="font-size:24px"></i>
+            </div>
+            <div class="combine_number_and_text">
+                <div class="component_number">
+                    <p>23</p>
+                </div>
+                <div class="component_text">
+                    <p>Resolve</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5th componenet  -->
+        <div class="statistics_component">
+            <div class="component_icon">
+                <i class="fa fa-trash" style="font-size: 24px;"></i>
+            </div>
+            <div class="combine_number_and_text">
+                <div class="component_number">
+                    <p>5</p>
+                </div>
+                <div class="component_text">
+                    <p>Ticket Expired</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6th componenet  -->
+        <div class="statistics_component">
+            <div class="component_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-activity" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2" />
+                </svg>
+            </div>
+            <div class="combine_number_and_text">
+                <div class="component_number">
+                    <p>0.3 sc</p>
+                </div>
+                <div class="component_text">
+                    <p>Avg Response Time</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="ticket_status_and_agents">
+        <!-- Ticket status which contains its header and the display -->
+        <div class="ticket_status">
+            <div class="ticket_status_header">
+                <div class="ticket_status_header_title">Ticket Status</div>
+                <div class="ticket_status_header_middle">
+                    <span class="dot1"></span>
+                    <p>New Ticket</p>
+                    <span class="dot2"></span>
+                    <p>Pending</p>
+                </div>
+                <div class="ticket_status_header_moreButton">
+                    <i class="fa fa-ellipsis-h" style="font-size:24px"></i>
+                </div>
+            </div>
+            <div class="ticket_status_display"></div>
+        </div>
+
+        <!-- agents componenet which contains its header and the agent list -->
+        <div class="agents">
+            <div class="agents_header">
+                <div class="agents_header_title">
+                    Top Agent's
+                </div>
+                <div class="agents_header_box">
+                    by chat
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+            </div>
+            <div class="agents_list">
+
+                <!-- 1st agent  -->
+                <div class="agent_profile">
+                    <div class="profile_picture"><a href="https://www.freeiconspng.com/img/910"
+                            title="Image from freeiconspng.com"><img
+                                src="https://www.freeiconspng.com/uploads/am-a-19-year-old-multimedia-artist-student-from-manila--21.png"
+                                width="35" alt="Free High quality Profile Icon" /></a></div>
+                    <div class="profile_name_and_email">
+                        <div class="name">Angelica Fernando</div>
+                        <div class="email">abcdefg@gmail.com</div>
+                    </div>
+                    <div class="profile_chat_number">20 chats</div>
+                </div>
+
+                <!-- 2nd agent  -->
+                <div class="agent_profile">
+                    <div class="profile_picture"><a href="https://www.freeiconspng.com/img/910"
+                            title="Image from freeiconspng.com"><img
+                                src="https://www.freeiconspng.com/uploads/am-a-19-year-old-multimedia-artist-student-from-manila--21.png"
+                                width="35" alt="Free High quality Profile Icon" /></a></div>
+                    <div class="profile_name_and_email">
+                        <div class="name">Ronald Fagundes</div>
+                        <div class="email">abcdefgh@gmail.com</div>
+                    </div>
+                    <div class="profile_chat_number">12 chats</div>
+                </div>
+
+                <!-- 3rd agent  -->
+                <div class="agent_profile">
+                    <div class="profile_picture"><a href="https://www.freeiconspng.com/img/910"
+                            title="Image from freeiconspng.com"><img
+                                src="https://www.freeiconspng.com/uploads/am-a-19-year-old-multimedia-artist-student-from-manila--21.png"
+                                width="35" alt="Free High quality Profile Icon" /></a></div>
+                    <div class="profile_name_and_email">
+                        <div class="name">Christiano Evan Dimas</div>
+                        <div class="email">abcdefghi@gmail.com</div>
+                    </div>
+                    <div class="profile_chat_number">10 chats</div>
+                </div>
+
+                <!-- 4th agent  -->
+                <div class="agent_profile">
+                    <div class="profile_picture"><a href="https://www.freeiconspng.com/img/910"
+                            title="Image from freeiconspng.com"><img
+                                src="https://www.freeiconspng.com/uploads/am-a-19-year-old-multimedia-artist-student-from-manila--21.png"
+                                width="35" alt="Free High quality Profile Icon" /></a></div>
+                    <div class="profile_name_and_email">
+                        <div class="name">Gilroy Hugo Fernandes</div>
+                        <div class="email">abcdefghij@gmail.com</div>
+                    </div>
+                    <div class="profile_chat_number">8 chats</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
